@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C934391C73568B0036D365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C934381C73568B0036D365 /* AppDelegate.swift */; };
+		25C9343B1C73568B0036D365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9343A1C73568B0036D365 /* ViewController.swift */; };
+		25C9343E1C73568B0036D365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C9343C1C73568B0036D365 /* Main.storyboard */; };
+		25C934401C73568B0036D365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C9343F1C73568B0036D365 /* Assets.xcassets */; };
+		25C934431C73568B0036D365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C934411C73568B0036D365 /* LaunchScreen.storyboard */; };
+		25C9344C1C7356F20036D365 /* Moody.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25C9344A1C7356F20036D365 /* Moody.xcdatamodeld */; };
+		25C9344E1C73592B0036D365 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9344D1C73592B0036D365 /* Mood.swift */; };
+		25C934501C7359CD0036D365 /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9344F1C7359CD0036D365 /* ManagedObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25C934351C73568B0036D365 /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C934381C73568B0036D365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25C9343A1C73568B0036D365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25C9343D1C73568B0036D365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C9343F1C73568B0036D365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C934421C73568B0036D365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C934441C73568B0036D365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C9344B1C7356F20036D365 /* Moody.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moody.xcdatamodel; sourceTree = "<group>"; };
+		25C9344D1C73592B0036D365 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		25C9344F1C7359CD0036D365 /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C934321C73568B0036D365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C9342C1C73568B0036D365 = {
+			isa = PBXGroup;
+			children = (
+				25C934371C73568B0036D365 /* Moody */,
+				25C934361C73568B0036D365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25C934361C73568B0036D365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C934351C73568B0036D365 /* Moody.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C934371C73568B0036D365 /* Moody */ = {
+			isa = PBXGroup;
+			children = (
+				25C934381C73568B0036D365 /* AppDelegate.swift */,
+				25C9343A1C73568B0036D365 /* ViewController.swift */,
+				25C9344D1C73592B0036D365 /* Mood.swift */,
+				25C9344F1C7359CD0036D365 /* ManagedObject.swift */,
+				25C9344A1C7356F20036D365 /* Moody.xcdatamodeld */,
+				25C9343C1C73568B0036D365 /* Main.storyboard */,
+				25C9343F1C73568B0036D365 /* Assets.xcassets */,
+				25C934411C73568B0036D365 /* LaunchScreen.storyboard */,
+				25C934441C73568B0036D365 /* Info.plist */,
+			);
+			path = Moody;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C934341C73568B0036D365 /* Moody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C934471C73568B0036D365 /* Build configuration list for PBXNativeTarget "Moody" */;
+			buildPhases = (
+				25C934311C73568B0036D365 /* Sources */,
+				25C934321C73568B0036D365 /* Frameworks */,
+				25C934331C73568B0036D365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moody;
+			productName = Moody;
+			productReference = 25C934351C73568B0036D365 /* Moody.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C9342D1C73568B0036D365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					25C934341C73568B0036D365 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 25C934301C73568B0036D365 /* Build configuration list for PBXProject "Moody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C9342C1C73568B0036D365;
+			productRefGroup = 25C934361C73568B0036D365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C934341C73568B0036D365 /* Moody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C934331C73568B0036D365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C934431C73568B0036D365 /* LaunchScreen.storyboard in Resources */,
+				25C934401C73568B0036D365 /* Assets.xcassets in Resources */,
+				25C9343E1C73568B0036D365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C934311C73568B0036D365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C9344E1C73592B0036D365 /* Mood.swift in Sources */,
+				25C9343B1C73568B0036D365 /* ViewController.swift in Sources */,
+				25C934501C7359CD0036D365 /* ManagedObject.swift in Sources */,
+				25C9344C1C7356F20036D365 /* Moody.xcdatamodeld in Sources */,
+				25C934391C73568B0036D365 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25C9343C1C73568B0036D365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C9343D1C73568B0036D365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25C934411C73568B0036D365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C934421C73568B0036D365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C934451C73568B0036D365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C934461C73568B0036D365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C934481C73568B0036D365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.venj.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25C934491C73568B0036D365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.venj.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C934301C73568B0036D365 /* Build configuration list for PBXProject "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C934451C73568B0036D365 /* Debug */,
+				25C934461C73568B0036D365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C934471C73568B0036D365 /* Build configuration list for PBXNativeTarget "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C934481C73568B0036D365 /* Debug */,
+				25C934491C73568B0036D365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25C9344A1C7356F20036D365 /* Moody.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25C9344B1C7356F20036D365 /* Moody.xcdatamodel */,
+			);
+			currentVersion = 25C9344B1C7356F20036D365 /* Moody.xcdatamodel */;
+			path = Moody.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25C9342D1C73568B0036D365 /* Project object */;
+}
